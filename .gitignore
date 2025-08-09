@@ -1,0 +1,25 @@
+# Root ignores
+node_modules/
+.DS_Store
+dist/
+build/
+.next/
+.turbo/
+.vercel/
+coverage/
+*.log
+*.tmp
+*.cache
+
+# Env files
+.env
+.env.*
+server/.env
+server/client/.env.local
+
+# Editor/OS
+.idea/
+.vscode/
+Thumbs.db
+
+
